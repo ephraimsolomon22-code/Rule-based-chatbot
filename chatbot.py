@@ -11,8 +11,8 @@ import random
 # Dictionary of keywords mapped to possible responses
 responses = {
     "hello": ["Hi there!", "Hello!", "Hey, how can I help you today?"],
-    "how are you": ["I'm just a program, but I'm doing great!", "Feeling good, thanks for asking!"],
-    "name": ["I'm ChatBot, your friendly rule-based assistant.", "You can call me ChatBot."],
+    "how are you": [" I'm doing great!", "Feeling good, thanks for asking!"],
+    "name": ["I'm chibi, your friendly rule-based assistant.", "You can call me Chi."],
     "bye": ["Goodbye! Have a great day!", "See you later!", "Bye! Take care."],
     "help": ["I can chat about simple things. Try asking my name, how I am, or say hello!"],
     "study": ["Studying is the key to success. What subject are you working on?"],
@@ -22,7 +22,6 @@ responses = {
 
 default_responses = [
     "I'm not sure I understand. Can you rephrase that?",
-    "Interesting! Tell me more.",
     "Hmm, I don't have a response for that yet.",
 ]
 
